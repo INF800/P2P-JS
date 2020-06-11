@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "budo index.js:bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm install"
   },
   "author": "",
   "license": "ISC"
