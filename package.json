@@ -5,12 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "getusermedia": "^2.0.1",
-    "simple-peer": "^9.7.2",
+    "simple-peer": "^9.7.2"
+  },
+  "devDependencies": {
     "budo": "^4.1.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "budo index.js:bundle.js",
+    "start": "browserify index.js -o bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

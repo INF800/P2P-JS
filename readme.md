@@ -23,3 +23,12 @@
 - run `npm start` (if you want, see what `start` does in package.json)
 - now, as `bundle.js` is created, you can use client side! host using simple server or use file:///
     - `budo` uses it's own server. goto mentioned host:port
+
+
+# hEROKU 
+ For production use browserify
+
+
+- `"start": "browserify index.js -o bundle.js",` instead of `"start": "budo index.js:bundle.js"`
+- `npm start` generates `bundle.js` which can be used by static page!
+- use github pages/heroku
