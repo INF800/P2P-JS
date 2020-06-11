@@ -25,10 +25,9 @@
     - `budo` uses it's own server. goto mentioned host:port
 
 
-# hEROKU 
+# github pages
  For production use browserify
 
 
-- `"start": "browserify index.js -o bundle.js",` instead of `"start": "budo index.js:bundle.js"`
-- `npm start` generates `bundle.js` which can be used by static page!
-- use github pages/heroku
+- simply generate `bundle.js` using `browserify index.js -o bundle.js`
+- static page!
